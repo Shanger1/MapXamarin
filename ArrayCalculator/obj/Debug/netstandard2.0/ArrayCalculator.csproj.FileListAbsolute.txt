@@ -1,0 +1,14 @@
+/Users/miau/ArrayCalculator/ArrayCalculator/bin/Debug/netstandard2.0/ArrayCalculator.deps.json
+/Users/miau/ArrayCalculator/ArrayCalculator/bin/Debug/netstandard2.0/ArrayCalculator.dll
+/Users/miau/ArrayCalculator/ArrayCalculator/bin/Debug/netstandard2.0/ArrayCalculator.pdb
+/Users/miau/ArrayCalculator/ArrayCalculator/obj/Debug/netstandard2.0/ArrayCalculator.Resources.resources
+/Users/miau/ArrayCalculator/ArrayCalculator/obj/Debug/netstandard2.0/ArrayCalculator.Resources.AppResources.resources
+/Users/miau/ArrayCalculator/ArrayCalculator/obj/Debug/netstandard2.0/ArrayCalculator.csproj.GenerateResource.cache
+/Users/miau/ArrayCalculator/ArrayCalculator/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/miau/ArrayCalculator/ArrayCalculator/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/miau/ArrayCalculator/ArrayCalculator/obj/Debug/netstandard2.0/ArrayCalculator.csproj.CoreCompileInputs.cache
+/Users/miau/ArrayCalculator/ArrayCalculator/obj/Debug/netstandard2.0/ArrayCalculator.AssemblyInfoInputs.cache
+/Users/miau/ArrayCalculator/ArrayCalculator/obj/Debug/netstandard2.0/ArrayCalculator.AssemblyInfo.cs
+/Users/miau/ArrayCalculator/ArrayCalculator/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/miau/ArrayCalculator/ArrayCalculator/obj/Debug/netstandard2.0/ArrayCalculator.dll
+/Users/miau/ArrayCalculator/ArrayCalculator/obj/Debug/netstandard2.0/ArrayCalculator.pdb

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:ArrayCalculator" x:Class="ArrayCalculator.MainPage">
+    <StackLayout>
+     <Label Text="Macierz1" HorizontalOptions="Center" x:Name="matrix1Label"/>
+     <Grid HorizontalOptions="Center" x:Name="matrix1" IsVisible="true">
+      <Grid.RowDefinitions>
+       <RowDefinition Height="*" />
+       <RowDefinition Height="*" />
+       <RowDefinition Height="*" />
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+       <ColumnDefinition Width="60" />
+       <ColumnDefinition Width="60" />
+       <ColumnDefinition Width="60" />
+      </Grid.ColumnDefinitions>
+      <Entry Grid.Row="0" Grid.Column="0" x:Name="entry0"/>
+      <Entry Grid.Row="0" Grid.Column="1" x:Name="entry1"/>
+      <Entry Grid.Row="0" Grid.Column="2" x:Name="entry2"/>
+      <Entry Grid.Row="1" Grid.Column="0" x:Name="entry3"/>
+      <Entry Grid.Row="1" Grid.Column="1" x:Name="entry4"/>
+      <Entry Grid.Row="1" Grid.Column="2" x:Name="entry5"/>
+      <Entry Grid.Row="2" Grid.Column="0" x:Name="entry6"/>
+      <Entry Grid.Row="2" Grid.Column="1" x:Name="entry7"/>
+      <Entry Grid.Row="2" Grid.Column="2" x:Name="entry8"/>
+     </Grid>
+     <Label Text="Macierz2" HorizontalOptions="Center" x:Name="matrix2Label"/>
+
+     <Grid HorizontalOptions="Center" x:Name="matrix2" IsVisible="true">
+      <Grid.RowDefinitions>
+       <RowDefinition Height="*" />
+       <RowDefinition Height="*" />
+       <RowDefinition Height="*" />
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+       <ColumnDefinition Width="60" />
+       <ColumnDefinition Width="60" />
+       <ColumnDefinition Width="60" />
+      </Grid.ColumnDefinitions>
+      <Entry Grid.Row="0" Grid.Column="0" x:Name="entry9"/>
+      <Entry Grid.Row="0" Grid.Column="1" x:Name="entry10"/>
+      <Entry Grid.Row="0" Grid.Column="2" x:Name="entry11"/>
+      <Entry Grid.Row="1" Grid.Column="0" x:Name="entry12"/>
+      <Entry Grid.Row="1" Grid.Column="1" x:Name="entry13"/>
+      <Entry Grid.Row="1" Grid.Column="2" x:Name="entry14"/>
+      <Entry Grid.Row="2" Grid.Column="0" x:Name="entry15"/>
+      <Entry Grid.Row="2" Grid.Column="1" x:Name="entry16"/>
+      <Entry Grid.Row="2" Grid.Column="2" x:Name="entry17"/>
+     </Grid>
+        
+     <Label Text="Wynik" HorizontalOptions="Center" x:Name="matrix3Label" IsVisible="false"/>
+     <Grid HorizontalOptions="Center" x:Name="matrix3" IsVisible="false">
+      <Grid.RowDefinitions>
+       <RowDefinition Height="*" />
+       <RowDefinition Height="*" />
+       <RowDefinition Height="*" />
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+       <ColumnDefinition Width="60" />
+       <ColumnDefinition Width="60" />
+       <ColumnDefinition Width="60" />
+      </Grid.ColumnDefinitions>
+      <Label Grid.Row="0" Grid.Column="0" x:Name="entry18"/>
+      <Label Grid.Row="0" Grid.Column="1" x:Name="entry19"/>
+      <Label Grid.Row="0" Grid.Column="2" x:Name="entry20"/>
+      <Label Grid.Row="1" Grid.Column="0" x:Name="entry21"/>
+      <Label Grid.Row="1" Grid.Column="1" x:Name="entry22"/>
+      <Label Grid.Row="1" Grid.Column="2" x:Name="entry23"/>
+      <Label Grid.Row="2" Grid.Column="0" x:Name="entry24"/>
+      <Label Grid.Row="2" Grid.Column="1" x:Name="entry25"/>
+      <Label Grid.Row="2" Grid.Column="2" x:Name="entry26"/>
+     </Grid>
+        
+     <Grid HorizontalOptions="Center" x:Name="buttons1" IsVisible="true">
+      <Grid.RowDefinitions>
+       <RowDefinition Height="*" />
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+       <ColumnDefinition Width="100" />
+       <ColumnDefinition Width="100" />
+      </Grid.ColumnDefinitions>
+      <Button Grid.Row="0" Grid.Column="0" x:Name="sum" Text="Suma" Clicked="sumButtonClicked" AutomationId="sumButton"/>
+      <Button Grid.Row="0" Grid.Column="1" x:Name="sub" Text="Różnica" Clicked="subButtonClicked"/>
+     </Grid>
+        
+     <Grid HorizontalOptions="Center" x:Name="buttons2" IsVisible="true">
+      <Grid.RowDefinitions>
+       <RowDefinition Height="*" />
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+       <ColumnDefinition Width="100" />
+      </Grid.ColumnDefinitions>
+      <Button Grid.Row="0" Grid.Column="0" x:Name="times"  Text="Iloczyn" Clicked="timesButtonClicked"/>
+     </Grid>
+        
+     <Grid HorizontalOptions="Center" x:Name="buttons3" IsVisible="false">
+      <Grid.RowDefinitions>
+       <RowDefinition Height="*" />
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+       <ColumnDefinition Width="100" />
+      </Grid.ColumnDefinitions>
+      <Button Grid.Row="0" Grid.Column="0" x:Name="back"  Text="Powrót" Clicked="backButtonClicked"/>
+     </Grid>
+        
+    </StackLayout>
+</ContentPage>
