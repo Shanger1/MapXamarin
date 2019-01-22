@@ -1,2 +1,2 @@
-# MapXamarin
-Aplikacja napisana w Xamarinie. Będzie korzystała z API Google Maps i ma za zadanie umożliwiać podstawowe operacje na mapie.
+# Xamarin
+Aplikacja napisana w Xamarinie. Wykonuje podstawowe operacje matematyczne na macierzach o wielkości 3x3
