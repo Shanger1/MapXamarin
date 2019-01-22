@@ -1,0 +1,19 @@
+ArrayCalculator
+
+initializeArraysToCount() - sets arrays with numbers given by user
+
+initializeArray3() - sets array with numbers after count
+
+sumButtonClicked() - function triggered after clicking in sum button, it sums matrixes and display right matrix
+
+subButtonClicked() - function triggered after clicking in sub button, it subs matrixes and display right matrix
+
+timesButtonClicked() - function triggered after clicking in times button, it times matrixes and display right matrix
+
+backButtonClicked() - function triggered after clicking in back button, it displays right matrixes
+
+addMatrix() - adds two matrixes
+
+subMatrix() - subs two matrixes
+
+timesMatrix() - times two matrixes
