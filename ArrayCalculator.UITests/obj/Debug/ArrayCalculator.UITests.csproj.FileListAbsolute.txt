@@ -1,0 +1,10 @@
+/Users/miau/ArrayCalculator/ArrayCalculator.UITests/bin/Debug/ArrayCalculator.UITests.dll
+/Users/miau/ArrayCalculator/ArrayCalculator.UITests/bin/Debug/ArrayCalculator.UITests.pdb
+/Users/miau/ArrayCalculator/ArrayCalculator.UITests/bin/Debug/nunit.framework.dll
+/Users/miau/ArrayCalculator/ArrayCalculator.UITests/bin/Debug/nunit.framework.pdb
+/Users/miau/ArrayCalculator/ArrayCalculator.UITests/bin/Debug/Xamarin.UITest.dll
+/Users/miau/ArrayCalculator/ArrayCalculator.UITests/obj/Debug/ArrayCalculator.UITests.csprojAssemblyReference.cache
+/Users/miau/ArrayCalculator/ArrayCalculator.UITests/obj/Debug/ArrayCalculator.UITests.csproj.CoreCompileInputs.cache
+/Users/miau/ArrayCalculator/ArrayCalculator.UITests/obj/Debug/ArrayCalculator.UITests.csproj.CopyComplete
+/Users/miau/ArrayCalculator/ArrayCalculator.UITests/obj/Debug/ArrayCalculator.UITests.dll
+/Users/miau/ArrayCalculator/ArrayCalculator.UITests/obj/Debug/ArrayCalculator.UITests.pdb

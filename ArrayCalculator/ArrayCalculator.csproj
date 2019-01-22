@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.3.0.967583" />
+    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1009999" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
@@ -27,6 +27,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Resources.Designer.cs" />
+    <Compile Remove="ArrayCalculatorTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="Resources\AppResources.Designer.cs">

@@ -78,7 +78,7 @@
        <ColumnDefinition Width="100" />
        <ColumnDefinition Width="100" />
       </Grid.ColumnDefinitions>
-      <Button Grid.Row="0" Grid.Column="0" x:Name="sum" Text="Suma" Clicked="sumButtonClicked" AutomationId="sumButton"/>
+      <Button Grid.Row="0" Grid.Column="0" x:Name="sum" Text="Suma" Clicked="sumButtonClicked"/>
       <Button Grid.Row="0" Grid.Column="1" x:Name="sub" Text="Różnica" Clicked="subButtonClicked"/>
      </Grid>
         

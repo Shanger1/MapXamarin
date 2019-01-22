@@ -28,16 +28,10 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="NUnit" Version="2.6.4" />
-    <PackageReference Include="Xamarin.UITest" Version="2.2.4" />
+    <PackageReference Include="NUnit" Version="3.11.0" />
+    <PackageReference Include="Xamarin.UITest" Version="2.2.7" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ArrayCalculator.iOS\ArrayCalculator.iOS.csproj">
-      <Project>{B9019178-37CF-465D-AEF4-068A37D279B5}</Project>
-      <Name>ArrayCalculator.iOS</Name>
-      <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
-      <Private>False</Private>
-    </ProjectReference>
     <ProjectReference Include="..\ArrayCalculator.Android\ArrayCalculator.Android.csproj">
       <Project>{A2CC9D09-6A8E-438B-BF9C-6DD9C78D697F}</Project>
       <Name>ArrayCalculator.Android</Name>
